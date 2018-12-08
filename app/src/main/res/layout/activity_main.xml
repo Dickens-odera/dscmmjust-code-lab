@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/selectedFood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chinese"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="239dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="120dp"
+        android:layout_height="117dp"
+        android:src="@drawable/dd_logo"
+        app:srcCompat="@drawable/dd_logo"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="78dp"
+        tools:layout_height="120dp" />
+
+    <Button
+        android:id="@+id/btnFood"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:text="Add Food"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="399dp" />
+
+    <Button
+        android:id="@+id/btnDecide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/decide_btn_text"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="468dp" />
+
+    <EditText
+        android:id="@+id/txtFood"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/add_food_text"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="326dp" />
+
+</android.support.constraint.ConstraintLayout>
